@@ -47,6 +47,7 @@
 ### Styles
 
 * 💄 测试数据19 style加BREAKING CHANGES ([b18364c](https://github.com/lyxdream/newTest/commit/b18364c2e18c7ca257ecdc0f7b07cea48e302cad))
+* 💄 测试数据22 style加BREAKING CHANGES加Closes [#123](https://github.com/lyxdream/newTest/issues/123) ([03ca05e](https://github.com/lyxdream/newTest/commit/03ca05e2ede33f48e408a616e3a9fbdf698a2def))
 
 
 ### Tests
@@ -56,15 +57,19 @@
 
 ### BREAKING CHANGES
 
+* 🧨 测试数据22 style加BREAKING CHANGES加Closes #123
 * 🧨 测试数据21 revert加BREAKING CHANGES
 * 🧨 测试数据19 style加BREAKING CHANGES
 * 🧨 测试数据18 refactor加BREAKING CHANGES
 * 🧨  测试数据15 perf加BREAKING CHANGES
 * 🧨 测试数据14 docs加BREAKING CHANGES
-* 🧨    测试数据12 ci加BREAKING CHANGES
+* 🧨 测试数据12 ci加BREAKING CHANGES
 * 🧨 测试数据9测试test
 * 🧨 测试数据7测试chore加BREAKING CHANGE
 * 🧨 增加参数数据2
+
+
+
 
 
 
