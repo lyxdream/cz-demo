@@ -11,6 +11,11 @@
 * 🤖 测试数据7测试chore加BREAKING CHANGE ([b3310e9](https://github.com/lyxdream/newTest/commit/b3310e9f6d6d579547e23071c4f9459d72bde99c))
 
 
+### Code Refactoring
+
+* 💡 测试数据18 refactor加BREAKING CHANGES ([ec3bd86](https://github.com/lyxdream/newTest/commit/ec3bd86ac6a356f8029807398adebfd46aef429e))
+
+
 ### Continuous Integration
 
 * 🎡 测试数据12 ci加BREAKING CHANGES ([8644b2b](https://github.com/lyxdream/newTest/commit/8644b2b445267993f8f2e59a44c4b65305a1a9ac))
@@ -40,6 +45,7 @@
 
 ### BREAKING CHANGES
 
+* 🧨 测试数据18 refactor加BREAKING CHANGES
 * 🧨  测试数据15 perf加BREAKING CHANGES
 * 🧨 测试数据14 docs加BREAKING CHANGES
 * 🧨    测试数据12 ci加BREAKING CHANGES
