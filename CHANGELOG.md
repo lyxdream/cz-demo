@@ -11,6 +11,11 @@
 * 🤖 测试数据7测试chore加BREAKING CHANGE ([b3310e9](https://github.com/lyxdream/newTest/commit/b3310e9f6d6d579547e23071c4f9459d72bde99c))
 
 
+### Continuous Integration
+
+* 🎡 测试数据12 ci加BREAKING CHANGES ([8644b2b](https://github.com/lyxdream/newTest/commit/8644b2b445267993f8f2e59a44c4b65305a1a9ac))
+
+
 ### Features
 
 * 🎸 增加测试数据2 ([0de7b94](https://github.com/lyxdream/newTest/commit/0de7b940ab2f62f847dfd9ab5a51298619fe9d52))
@@ -24,6 +29,7 @@
 
 ### BREAKING CHANGES
 
+* 🧨    测试数据12 ci加BREAKING CHANGES
 * 🧨 测试数据9测试test
 * 🧨 测试数据7测试chore加BREAKING CHANGE
 * 🧨 增加参数数据2
