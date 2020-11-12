@@ -1,30 +1,40 @@
 {
-  "name": "newTest",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "commit": "git-cz"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/lyxdream/newTest.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/lyxdream/newTest/issues"
-  },
-  "homepage": "https://github.com/lyxdream/newTest#readme",
-  "devDependencies": {
-    "cz-conventional-changelog": "^3.3.0",
-    "git-cz": "^4.7.3"
-  },
-  "config": {
-    "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog"
+    "name": "newTest",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "commit": "git-cz"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/lyxdream/newTest.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/lyxdream/newTest/issues"
+    },
+    "homepage": "https://github.com/lyxdream/newTest#readme",
+    "devDependencies": {
+        "@commitlint/cli": "^11.0.0",
+        "@commitlint/config-conventional": "^11.0.0",
+        "cz-conventional-changelog": "^3.3.0",
+        "git-cz": "^4.7.3"
+    },
+    "config": {
+        "commitizen": {
+            "path": "./node_modules/cz-conventional-changelog"
+        }
+    },
+    "dependencies": {
+        "husky": "^4.3.0"
+    },
+    "husky": {
+        "hooks": {
+            "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+        }
     }
-  }
 }
