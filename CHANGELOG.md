@@ -41,6 +41,7 @@
 ### Reverts
 
 * 💍 测试数据20 revert ([b02cc9a](https://github.com/lyxdream/newTest/commit/b02cc9a98749d811c3e9cb836ec7c4028cd194af))
+* 💍 测试数据21 revert加BREAKING CHANGES ([0357bb9](https://github.com/lyxdream/newTest/commit/0357bb94f5ce0995e8cd1f0e38852cd1c96e74a2))
 
 
 ### Styles
@@ -55,6 +56,7 @@
 
 ### BREAKING CHANGES
 
+* 🧨 测试数据21 revert加BREAKING CHANGES
 * 🧨 测试数据19 style加BREAKING CHANGES
 * 🧨 测试数据18 refactor加BREAKING CHANGES
 * 🧨  测试数据15 perf加BREAKING CHANGES
