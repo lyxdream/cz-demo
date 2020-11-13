@@ -1,4 +1,4 @@
-# newTest
+# cz-demo
 
 ## git commit 规范
 
@@ -96,23 +96,25 @@ This reverts commit 667ecc1654a317a13331b17617d973392f415f02.
 > 使用终端工具 (git-cz+ commitizen + cz-conventional-changelog)(Commitizen: 替代 git commit) + (@commitlint/config-conventional @commitlint/cli)(commit lint 校验规则 ) +husky( commit message 时触发检验规则
 > )+ conventional-changelog/standard-version(自动生成 CHANGELOG) 一步解决提交信息和版本发布。
 
-
 ### 工具集示例，包含以下工具类型：
-- 适配器：用于配置cz的提交说明
-- 校验：校验提交说明是否符合规范
-- 日志：根据提交说明的类型快速生成日志
+
+-   适配器：用于配置 cz 的提交说明
+-   校验：校验提交说明是否符合规范
+-   日志：根据提交说明的类型快速生成日志
+
 ### 自动生成合格的 commit message
 
 1、全局安装
 
 ```bash
     npm install -g git-cz
-   
+
 ```
+
 2、 局部安装
 
 `安装 git-cz 和 commitize、 cz-conventional-changelog`
- 
+
 ```bash
 npm install  git-cz --save-dev
  # 安装commitizen 用于初始化commit的规范
@@ -145,13 +147,13 @@ commitizen init cz-conventional-changelog --save-dev --save-exact
     }
 }
 ```
-3、 自定义配置，新增 [changelog.config.js](https://github.com/lyxdream/cz-demo/blob/main/changelog.config.js)
 
+3、 自定义配置，新增 [changelog.config.js](https://github.com/lyxdream/cz-demo/blob/main/changelog.config.js)
 
 > changelog 配置，commit 规则也在这里进行配置
 > 参考文档：https://www.npmjs.com/package/git-cz
 
-4、使用git-cz
+4、使用 git-cz
 
 ```json
 "scripts": {
@@ -161,7 +163,6 @@ commitizen init cz-conventional-changelog --save-dev --save-exact
 
 执行 `npm git-cz` 或者执行`npm run commit`
 效果如下
-
 
 ### commit message lint 校验
 
@@ -229,18 +230,16 @@ workflow: 工作流相关文件修改
 ```json
 "husky": {
     "hooks": {
-        "pre-commit": "npm run lint",
-        "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
-        "pre-push": "npm test"
+        "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
 }
 ```
 
-> "pre-commit": "npm run lint"，在 git commit 前执行 npm run lint 检查代码格式。
+<!-- > "pre-commit": "npm run lint"，在 git commit 前执行 npm run lint 检查代码格式。 -->
 
 > "commit-msg": "commitlint -E HUSKY_GIT_PARAMS" 在 git commit 时执行 commitlint -E HUSKY_GIT_PARAMS 验证 commit 消息。如果不符合定义的格式，将会报错。
 
-> "pre-push": "npm test"，在你执行 git push 将代码推送到远程仓库前，执行 npm test 进行测试。如果测试失败，将不会执行这次推送。
+<!-- > "pre-push": "npm test"，在你执行 git push 将代码推送到远程仓库前，执行 npm test 进行测试。如果测试失败，将不会执行这次推送。 -->
 
 配置完成后，每次 commit 就会进行校验，校验不通过会拦截 commit
 
@@ -332,7 +331,7 @@ npm install -g conventional-changelog-cli
 [如何规范 commit 提交](https://my.oschina.net/u/4291707/blog/3315002)
 [commit 规范及自动生成 changelog](https://www.yuque.com/hutao/eusgif/ueqoaf)
 [优雅的提交你的 Git Commit Message](https://juejin.im/post/6844903606815064077#heading-10)
-[git commit规范及自动检查工具安装小记](https://juejin.im/post/6844904033635794958)
-[Cz工具集使用介绍 - 规范Git提交说明](https://blog.csdn.net/weixin_33890526/article/details/91393527)
+[git commit 规范及自动检查工具安装小记](https://juejin.im/post/6844904033635794958)
+[Cz 工具集使用介绍 - 规范 Git 提交说明](https://blog.csdn.net/weixin_33890526/article/details/91393527)
 
-```
+
