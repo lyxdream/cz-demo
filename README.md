@@ -163,6 +163,16 @@ commitizen init cz-conventional-changelog --save-dev --save-exact
 
 执行 `npm git-cz` 或者执行`npm run commit`
 效果如下
+配置changelog.config.js之前的效果：
+![图片1](./img/1.png)
+
+![图片2](./img/2.png)
+
+![图片3](./img/3.png)
+
+配置changelog.config.js之后的效果：
+
+![图片4](./img/4.png)
 
 ### commit message lint 校验
 
@@ -244,6 +254,12 @@ workflow: 工作流相关文件修改
 
 配置完成后，每次 commit 就会进行校验，校验不通过会拦截 commit
 
+运行结果如下:
+
+![图片5](./img/5.png)
+
+> 会发现出现了husky校验
+
 ### 生成 CHANGELOG.md
 
 1、使用 standard-version 来生成 CHANGELOG.md
@@ -322,7 +338,9 @@ npm install -g conventional-changelog-cli
 > -   release 不会出现在选择列表里目前没找到原因
 
 > 区别：conventional-changelog 我目前没找到变更版本号的地方，standard-version 可以更新版本号的变化。
-> 如果想测试，演示项目地址：[cz-demo] https://github.com/lyxdream/cz-demo.git
+> 如果想测试，演示项目地址：[cz-demo](https://github.com/lyxdream/cz-demo.git)
+
+生成的日志可查看示例：[CHANGELOG](https://github.com/lyxdream/cz-demo/blob/main/CHANGELOG.md)
 
 最后：
 
