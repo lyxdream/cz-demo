@@ -347,10 +347,12 @@ npm install -g conventional-changelog-cli
 参考文章
 
 [阮一峰 Commit message 和 Change log 编写指南](http://www.ruanyifeng.com/blog/2016/01/commit_message_change_log.html)
+
 [如何规范 commit 提交](https://my.oschina.net/u/4291707/blog/3315002)
+
 [commit 规范及自动生成 changelog](https://www.yuque.com/hutao/eusgif/ueqoaf)
-[优雅的提交你的 Git Commit Message](https://juejin.im/post/6844903606815064077#heading-10)
+
 [git commit 规范及自动检查工具安装小记](https://juejin.im/post/6844904033635794958)
-[Cz 工具集使用介绍 - 规范 Git 提交说明](https://blog.csdn.net/weixin_33890526/article/details/91393527)
+
 
 
